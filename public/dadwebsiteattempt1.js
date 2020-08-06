@@ -12,7 +12,7 @@ $(".yolo").click(function(){
  // });
  
  $('document').ready(function(){
-     $("#div1").hover(function(){
+     $(".div1").hover(function(){
          $("#div2").fadeIn(); 
      }); 
  }); 
