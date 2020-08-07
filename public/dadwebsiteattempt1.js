@@ -41,6 +41,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $(window).scroll( function(){
+        $('.fadein3').each( function(i){
+            
+            $(this).animate({'opacity':'1'},2000);
+            
+            
+        }); 
+    });
+});
+
+$(document).ready(function() {
+    $(window).scroll( function(){
         $('.fadeinleft').each( function(i){
             
             var bottom_of_element = $(this).offset().top + $(this).outerHeight();
