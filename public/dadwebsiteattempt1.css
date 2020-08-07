@@ -261,7 +261,9 @@ span.navbar-toggler-icon{
 }
 button.navbar-toggler{
 	padding: 0px;
-	margin-top: 0px !important;
+	margin-top: -17px !important;
+	height: 100%;
+	
 }
 
 i.fab.fa-angellist.dadlogo{
