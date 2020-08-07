@@ -295,3 +295,22 @@ div#navbarSupportedContent.collapse.show{
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
 }
+#hang{
+	/* position : absolute; */
+	margin-top: 4mm;
+	margin-left: 4mm;
+}
+#nohang{
+	margin-top: -9mm !important;
+}
+.fadein1{
+	opacity: 0;
+}
+.fadein2{
+	opacity: 0;
+}
+.fadeinleft {
+	opacity:0;
+	margin-left:-300px;	
+	max-width:100%;
+}
