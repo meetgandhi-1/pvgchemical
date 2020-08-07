@@ -256,3 +256,33 @@ span {
 		display: inline-block;
 		width: 100px;
 	}
+span.navbar-toggler-icon{
+	width: 66px;
+}
+button.navbar-toggler{
+	padding: 0px;
+	margin-top: 0px !important;
+}
+
+i.fab.fa-angellist.dadlogo{
+	margin: 0px;
+}
+/* .leftaanede{
+	float: right;
+} */
+
+form.form-inline.my-2.my-lg-0.ml-auto{
+	/* margin-left: 10% !important; */
+	float: left;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+a.nav-link.redbutton{
+	float: left !important;
+	
+}
+div#navbarSupportedContent.collapse.show{
+	background-color:rgba(235, 235, 235, 0.5) !important;
+	margin-left: 0px;
+	
+}
