@@ -1,11 +1,17 @@
+/* body, html {
+	height: 100%;
+	margin: 0;
+  }
+   */
 #firstquater {
 	/*margin-top: 5%;*/
 	background-image: url(https://www.atsolvochem.com/images/banner.jpg);
 	background-repeat: no-repeat; 
-	background-size: 100% 100%;
-	height: 1000px;
-
-
+	height: 40rem;
+	background-position: center center;
+	background-size: cover;
+	/* background-attachment: fixed; */
+	
 }
 #div2{
 	display: none;
