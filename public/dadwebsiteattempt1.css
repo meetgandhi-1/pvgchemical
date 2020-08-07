@@ -284,5 +284,6 @@ a.nav-link.redbutton{
 div#navbarSupportedContent.collapse.show{
 	background-color:rgba(235, 235, 235, 0.5) !important;
 	margin-left: 0px;
-	
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
 }
