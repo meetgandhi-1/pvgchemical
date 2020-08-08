@@ -190,6 +190,7 @@ nav{
 .lastwala:hover{
 	color: #FD5F40 !important;
 	transition: all 0.4s !important;
+	text-decoration: none;
 }
 .tophai{
 	padding-bottom: 10%;
@@ -335,3 +336,4 @@ a.lastwala{
 .fadeinleft{
 	padding-left: 20%;
 } */
+
