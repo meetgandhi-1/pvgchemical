@@ -310,11 +310,6 @@ div#navbarSupportedContent.collapse.show{
 .fadein2{
 	opacity: 0;
 }
-.fadeinleft {
-	opacity:0;
-	margin-left:-300px;	
-	max-width:100%;
-}
 .fadein3{
 	opacity: 0;
 }
