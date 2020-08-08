@@ -188,8 +188,8 @@ nav{
     text-align: left;
 }
 .lastwala:hover{
-	color: #FD5F40;
-	transition: all 0.4s;
+	color: #FD5F40 !important;
+	transition: all 0.4s !important;
 }
 .tophai{
 	padding-bottom: 10%;
@@ -317,3 +317,21 @@ div#navbarSupportedContent.collapse.show{
 .fadein3{
 	opacity: 0;
 }
+/* .container{
+	display: flex;
+} */
+
+/* justify self center
+margin 0px auto */
+/* flex direction row */
+
+#email{
+	text-transform: lowercase !important;
+	text-decoration: none;
+}
+a.lastwala{
+	text-decoration: none;
+/* }
+.fadeinleft{
+	padding-left: 20%;
+} */
