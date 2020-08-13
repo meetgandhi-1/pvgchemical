@@ -3,21 +3,57 @@
 	margin: 0;
   }
    */
+
+/* For width smaller than 400px: */
 #firstquater {
 	/*margin-top: 5%;*/
-	background-image: url(https://www.atsolvochem.com/images/banner.jpg);
+	background-image: url(images/backgroundfinal.png); 
 	background-repeat: no-repeat; 
-	height: 40rem;
+	width: 100%;
+	height: 57em;
+	/* height: 610; */
 	background-position: center center;
 	background-size: cover;
 	/* background-attachment: fixed; */
 	
 }
+
+  /* For width 400px and larger: */
+  @media only screen and (min-width: 400px) {
+	#firstquater {
+		/*margin-top: 5%;*/
+		background-image: url(images/backgroundfinal.png); 
+		background-repeat: no-repeat; 
+		width: 100%;
+		height: 45em;
+		/* height: 610; */
+		background-position: center center;
+		background-size: cover;
+		/* background-attachment: fixed; */
+		
+	}
+	
+  }
+  @media only screen and (min-width: 1234px) {
+	#firstquater {
+		/*margin-top: 5%;*/
+		background-image: url(images/backgroundfinal.png); 
+		background-repeat: no-repeat; 
+		width: 100%;
+		height: 60em;
+		/* height: 610; */
+		background-position: center center;
+		background-size: cover;
+		/* background-attachment: fixed; */
+		
+	}
+	
+  }
 #div2{
 	display: none;
 }
-#name1{
-	padding-top: 15%;
+/* #name1{
+	padding-top: 15%; 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 49.6px;
 	font-weight: 700;
@@ -25,6 +61,11 @@
 	text-shadow: rgb(255,255,255) 2px 2px 2px;
 	line-height: 64.48px;
 	text-transform: uppercase;
+ } */
+
+img.naam{
+	/* width: 48rem; */
+	height: 35rem;
 }
 #name2{
 	padding-top: 5%;
@@ -105,17 +146,17 @@ a{
 		color: #777777 !important;
 }
 .linespace:hover a{
-	color: #ff3333 !important;
-	text-decoration-color: #ff3333 !important;
+	color: rgb(53, 119, 193) !important;
+	text-decoration-color: rgb(53, 119, 193) !important;
 	text-decoration: none;
 }
 
 .linespace:hover{
-	color: #ff3333;
-	text-decoration-color: #ff3333 !important;
+	color: rgb(53, 119, 193);
+	text-decoration-color: rgb(53, 119, 193) !important;
 }
 .redbutton:hover{
-	background-color: #fd5331 !important;
+	background-color: rgb(53, 119, 193) !important;
 	height: 100%;
 }
 .redbutton{
@@ -147,7 +188,7 @@ nav{
 
 }
 #homebutton{
-	background-color: #fd5331;
+	background-color: rgb(53, 119, 193);
 }
 .navbar-right{
 	float: right !important;
@@ -163,22 +204,28 @@ nav{
 
 	padding: 0 !important;
 }
-.dadlogo{
-	background-color: #fd5331;
-	padding : 15px 20px 15px 20px;
+div.dadlogo{
+	background-color: rgb(53, 119, 193);
+	padding : 1px 2px 1px 2px !important;
 	text-align: center;
-	margin-left: 50px;
-	font-size: 50px; 
-	margin-top: 70px;
+	/* margin-top: 1rem; */
+	/* margin-left: 25em; */
+	font-size: 45px; 
+	font-weight: 100;
+	/* margin-top: 70px; */
 	color: white !important;
-	border-radius: 18px;
+	/* border-radius: 18px; */
+}
+#nohang{
+	background-color: rgb(53, 119, 193);
+	height: 100%;
 }
 .naam{
 	
 }
 #fourthquater{
 	background-color: #2f3837;
-	border-top: 2px solid #FD5F40;
+	border-top: 2px solid rgb(53, 119, 193);
 	padding: 3em 0 2em 0;
     color: #777;
     text-decoration: none;
@@ -188,7 +235,7 @@ nav{
     text-align: left;
 }
 .lastwala:hover{
-	color: #FD5F40 !important;
+	color: rgb(53, 119, 193) !important;
 	transition: all 0.4s !important;
 	text-decoration: none;
 }
@@ -196,7 +243,7 @@ nav{
 	padding-bottom: 10%;
 }
 .yolo{
-	background-color: #fd5331 !important;
+	background-color: rgb(53, 119, 193) !important;
 	padding: 1.2em 2em !important;
 }
 #copyright{
@@ -268,17 +315,22 @@ span.navbar-toggler-icon{
 }
 button.navbar-toggler{
 	padding: 0px;
-	margin-top: -17px !important;
 	height: 100%;
 	
 }
 
-i.fab.fa-angellist.dadlogo{
+/* div.dadlogo{
 	margin: 0px;
-}
+} */
 /* .leftaanede{
 	float: right;
 } */
+@media (max-width: 990px) {
+	a.nav-link.redbutton{
+		width: 561.2% !important;
+	}
+}
+	
 
 form.form-inline.my-2.my-lg-0{
 	/* margin-left: 10% !important; */
@@ -288,22 +340,20 @@ form.form-inline.my-2.my-lg-0{
 }
 a.nav-link.redbutton{
 	float: left !important;
-	
-}
+	}
 div#navbarSupportedContent.collapse.show{
 	background-color:rgba(235, 235, 235, 0.5) !important;
 	margin-left: 0px;
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
+	
 }
 #hang{
 	/* position : absolute; */
 	margin-top: 4mm;
 	margin-left: 4mm;
 }
-#nohang{
-	margin-top: -9mm !important;
-}
+
 .fadein1{
 	opacity: 0;
 }
