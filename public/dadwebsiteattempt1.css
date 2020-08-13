@@ -7,7 +7,7 @@
 /* For width smaller than 400px: */
 #firstquater {
 	/*margin-top: 5%;*/
-	background-image: url(images/backgroundfinall.png);
+	background-image: url(https://raw.githubusercontent.com/meetgandhi-1/pvgchemical/master/public/images/backgroundfinall.png);
 	-webkit-transition: background 1s ease-in !important;
 	transition: background 1s ease-in !important;
 	background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 @media only screen and (min-width: 400px) {
 	#firstquater {
 		/*margin-top: 5%;*/
-		background-image: url(images/backgroundfinall.png);
+		background-image: url(https://raw.githubusercontent.com/meetgandhi-1/pvgchemical/master/public/images/backgroundfinall.png);
 		-webkit-transition: background 1s ease-in !important;
 		transition: background 1s ease-in !important;
 		background-repeat: no-repeat;
@@ -42,7 +42,7 @@
 @media only screen and (min-width: 1100px) {
 	#firstquater {
 		/*margin-top: 5%;*/
-		background-image: url(images/backgroundfinall.png);
+		background-image: url(https://raw.githubusercontent.com/meetgandhi-1/pvgchemical/master/public/images/backgroundfinall.png);
 		-webkit-transition: background 1s ease-in !important;
 		transition: background 1s ease-in !important;
 		background-repeat: no-repeat;
