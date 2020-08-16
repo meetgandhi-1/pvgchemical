@@ -499,22 +499,28 @@ a.lastwala {
 
 #logo {
 	position: relative;
-	animation: bounce-2 1.6s;
-	animation-delay: 2s;
+	animation: bounce-2 4s;
+	animation-delay: 0.01s;
 }
 
 @keyframes bounce-2 {
+	
 	0% {
 		transform: translateY(-60px)translateX(-60px);
 		opacity: 0;
 	}
 
-	33% {
+	50% {
+		transform: translateY(-60px)translateX(-60px);
+		opacity: 0;
+	}
+
+	67% {
 		transform: translateY(0px)translateX(-40px);
 		opacity: 0.33;
 	}
 
-	66% {
+	84% {
 		transform: translateY(-60px)translateX(-20px);
 		opacity: 0.66;
 	}
@@ -523,4 +529,8 @@ a.lastwala {
 		transform: translateY(0px)translateX(0px);
 		opacity: 1;
 	}
-}
+ }
+
+ /*#logo {
+	opacity: 1;
+} */
